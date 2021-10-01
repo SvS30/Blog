@@ -1,0 +1,80 @@
+.right-image-post {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 2px solid rgba(250, 250, 250, 0.1);
+}
+
+.right-image img {
+    border-radius: 5px;
+}
+
+.right-image-post h4 {
+    margin-top: 30px;
+}
+
+.right-image-post p {
+    margin-top: 20px;
+}
+
+.right-image-post .white-button {
+    margin-top: 30px;
+}
+/* Buttons */
+
+.white-button a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #a43f49;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.white-button a:hover {
+    background-color: #a43f49;
+    color: #fff;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #a43f49;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    outline: none;
+    background-color: #a43f49;
+    color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+    .right-image-post h4 {
+        margin-top: 0px;
+    }
+
+    .right-image-post p {
+        margin-top: 15px;
+    }
+
+    .right-image-post .white-button {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 845px) {        
+    .right-image-post img {
+        margin-top: 30px;
+    }
+}
