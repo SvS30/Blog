@@ -1,8 +1,17 @@
 import { render, screen } from '@testing-library/react';
-import App from './landing/App';
+import App from './views/landing/App';
 
-test('renders learn react link', () => {
+test('renders sidebar component in App', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const nameElement = screen.getByText(/salim vazquez solis/i);
+  expect(nameElement).toBeInTheDocument();
+  const jobElement = screen.getByText(/backend dev/i);
+  expect(jobElement).toBeInTheDocument();
+});
+
+
+test('renders about component in App', () => {
+  render(<App />);
+  const aboutElement = screen.getByText(/this is a bootstrap v4.2.1 CSS Template/i);
+  expect(aboutElement).toBeInTheDocument();
 });
