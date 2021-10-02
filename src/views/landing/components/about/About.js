@@ -1,5 +1,7 @@
+// import static files or dependencies
 import './About.css';
 
+// import components
 import LeftImage from './components/left-image/LeftImage';
 import RightImage from './components/right-image/RightImage';
 
