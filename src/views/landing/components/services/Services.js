@@ -19,7 +19,7 @@ class Services extends Component {
 
     render() {
         return (
-            <section className="section my-services" data-section="section2">
+            <section className="section my-services" data-section="section2" id={'section2'}>
                     <div className="container">
                         <div className="section-heading">
                             <h2>What is Lorem Ipsum?</h2>
