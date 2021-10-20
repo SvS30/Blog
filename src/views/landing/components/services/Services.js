@@ -22,7 +22,7 @@ class Services extends Component {
             <section className="section my-services" data-section="section2" id={'section2'}>
                     <div className="container">
                         <div className="section-heading">
-                            <h2>What is Lorem Ipsum?</h2>
+                            <h2>Aptitudes y Habilidades</h2>
                             <div className="line-dec"></div>
                             <span>Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry.

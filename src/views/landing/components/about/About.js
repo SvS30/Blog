@@ -12,9 +12,10 @@ function About() {
                 <div className="section-heading">
                     <h2>Acerca de mi</h2>
                     <div className="line-dec"></div>
-                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    <span>Desarrollador de software autodidacta, interesado en crear tecnología
+                        capaz de solventar problemáticas del día a día, estando en 
+                        total disponibilidad de aprender tecnologías/metodologías nuevas,
+                        como también adaptarse a un equipo de desarrollo.</span>
                 </div>
                 <LeftImage></LeftImage>
                 <RightImage></RightImage>
