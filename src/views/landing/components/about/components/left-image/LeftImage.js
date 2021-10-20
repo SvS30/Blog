@@ -1,4 +1,6 @@
+// import static files or dependencies
 import './LeftImage.css';
+import leftImage from '../../../../../../assets/images/pexels-blog.jpg'
 
 function LeftImage() {
     return (
@@ -6,12 +8,12 @@ function LeftImage() {
             <div className="row">
                 <div className="col-md-6">
                     <div className="left-image">
-                        <img src="assets/images/left-image.jpg" alt="" />
+                        <img src={leftImage} alt="About img 1" />
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="right-text">
-                        <h4>Where does it come from?</h4>
+                        <h4>Entrada Blog 1</h4>
                         <p>
                             Contrary to popular belief, Lorem Ipsum is not simply random text.
                             It has roots in a piece of classical Latin literature from 45 BC,

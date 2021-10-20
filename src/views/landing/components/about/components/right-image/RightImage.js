@@ -1,4 +1,6 @@
+// import static files or dependencies
 import './RightImage.css';
+import rightImage from '../../../../../../assets/images/pexels-blog.jpg'
 
 function RightImage() {
     return (
@@ -6,7 +8,7 @@ function RightImage() {
             <div className="row">
                 <div className="col-md-6">
                     <div className="left-text">
-                        <h4>Why do we use it?</h4>
+                        <h4>Entrada Blog 2</h4>
                         <p>
                             It is a long established fact that a reader will be distracted by the readable
                             content of a page when looking at its layout. The point of using Lorem Ipsum
@@ -20,7 +22,7 @@ function RightImage() {
                 </div>
                 <div className="col-md-6">
                     <div className="right-image">
-                        <img src="assets/images/right-image.jpg" alt="" />
+                        <img src={rightImage} alt="About img 2" />
                     </div>
                 </div>
             </div>
