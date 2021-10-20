@@ -11,7 +11,7 @@ function SocialNetwork() {
                     <a href="https://github.com/SvS30"><i className="fa fa-github"></i></a>
                 </li>
                 <li>
-                    <a href="https://gitlab.com/SvS21"><i class="fa fa-gitlab"></i></a>
+                    <a href="https://gitlab.com/SvS21"><i class="fa fa-git"></i></a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/salim-vazquez-solis-6565b7170/"><i className="fa fa-linkedin"></i></a>
