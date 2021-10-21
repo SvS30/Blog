@@ -7,11 +7,11 @@ function Contact() {
         <section className="section contact-me" data-section="section4" id={'section4'}>
             <div className="container">
                 <div className="section-heading">
-                    <h2>Contact Me</h2>
+                    <h2>Contáctame</h2>
                     <div className="line-dec"></div>
-                    <span>Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-                    efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.</span>
+                    <span>Estoy abierto a cualquier sugerencia o simplemente chatear, completa la información
+                        y trataré de responderte lo más pronto posible.
+                    </span>
                 </div>
                 <div className="row">
                     <div className="right-content">
