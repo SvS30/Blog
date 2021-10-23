@@ -4,7 +4,6 @@ import React from 'react';
 import Sidebar from "./components/sidebar/Sidebar";
 import About from "./components/about/About";
 import Services from './components/services/Services';
-import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Sidebar />
       <About />
       <Services />
-      <Contact />
     </React.Fragment>
   );
 }

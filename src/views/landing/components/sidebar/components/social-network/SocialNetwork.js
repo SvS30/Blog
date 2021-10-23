@@ -17,7 +17,10 @@ function SocialNetwork() {
                     <a href="https://www.linkedin.com/in/salim-vazquez-solis-6565b7170/"><i className="fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                    <a href="http://google.com"><i className="fa fa-dribbble"></i></a>
+                    <a href="https://medium.com/@salimvzqz"><i className="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:salimvzqz@gmail.com"><i className="fa fa-envelope"></i></a>
                 </li>
             </ul>
         </div>
