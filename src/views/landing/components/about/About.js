@@ -12,10 +12,12 @@ function About() {
                 <div className="section-heading">
                     <h2>Acerca de mi</h2>
                     <div className="line-dec"></div>
-                    <span>Desarrollador de software autodidacta, interesado en crear tecnología
-                        capaz de solventar problemáticas del día a día, estando en 
-                        total disponibilidad de aprender tecnologías/metodologías nuevas,
-                        como también adaptarse a un equipo de desarrollo.</span>
+                    <span>Desarrollador de software, interesado en crear tecnología
+                        de vanguardia que ayude a resolver problemas que se presentan
+                        en nuestro diario vivir, estando en total disponibilidad de
+                        aprender tecnologías/metodologías novedosas, como también 
+                        adaptarme a las exigencias que conlleva el trabajar en un equipo
+                        de desarrolladores.</span>
                 </div>
                 <LeftImage></LeftImage>
                 <RightImage></RightImage>
