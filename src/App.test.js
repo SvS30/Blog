@@ -12,22 +12,20 @@ test('renders sidebar component in App', () => {
 
 test('renders about component in App', () => {
   render(<App />);
-  const aboutElement = screen.getByText(/acerca de mi/i);
-  expect(aboutElement).toBeInTheDocument();
+  const aboutElement = screen.getAllByText(/acerca de mi/i);
+  expect(aboutElement.length).toBe(2);
   const readMoreElement = screen.getAllByText(/read more/i);
   expect(readMoreElement.length).toBe(2);
 });
 
 test('renders services component in App', () => {
   render(<App />);
-  const titleServiceElement = screen.getByText(/what is lorem ipsum/i);
+  const titleServiceElement = screen.getByText(/capacidad de análisis e investigación/i);
   expect(titleServiceElement).toBeInTheDocument();
-  const titleCardOneElement = screen.queryAllByText(/where does it come from/i);
-  expect(titleCardOneElement.length).toBe(2);
-  const titleCardTwoElement = screen.getAllByText(/why do we use it/i);
-  expect(titleCardTwoElement.length).toBe(2);
-  const titleCardThreeElement = screen.getByText(/where can i get some/i);
+  const titleCardOneElement = screen.getByText(/capacidad para tomar decisiones y resolver problemas/i);
+  expect(titleCardOneElement).toBeInTheDocument();
+  const titleCardTwoElement = screen.getByText(/capacidad de adaptarse a nuevos entornos de trabajo/i);
+  expect(titleCardTwoElement).toBeInTheDocument();
+  const titleCardThreeElement = screen.getByText(/capacidad de organización y planificación/i);
   expect(titleCardThreeElement).toBeInTheDocument();
-  const titleCardFourElement = screen.getByText(/the standard lorem ipsum/i);
-  expect(titleCardFourElement).toBeInTheDocument();
 });
