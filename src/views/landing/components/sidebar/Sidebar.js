@@ -1,7 +1,7 @@
 // Import static files or dependencies
 import { useState } from 'react';
 import './Sidebar.css';
-import profile from '../../../../assets/images/avatar.png';
+import profile from '../../../../assets/images/Profile.png';
 
 // Import components
 import SocialNetwork from './components/social-network/SocialNetwork';
