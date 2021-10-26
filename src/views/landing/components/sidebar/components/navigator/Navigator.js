@@ -6,7 +6,7 @@ function Navigator() {
             <ul className="main-menu">
                 <li><a href="#section1">Acerca de Mi</a></li>
                 <li><a href="#section2">Aptitudes y Habilidades</a></li>
-                <li><a href="https://drive.google.com/file/d/1fYrJQNZe5hm0ycN_GSev-Qk0zoEsI4kV/view?usp=sharing"
+                <li><a href="https://drive.google.com/file/d/1eO5o8q4MLiovHGZ-8LnxIWBDNcq_2VWP/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer">CV</a></li>
             </ul>
         </nav>

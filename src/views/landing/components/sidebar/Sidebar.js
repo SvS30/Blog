@@ -29,7 +29,7 @@ function Sidebar() {
                     <Navigator></Navigator>
                     <SocialNetwork></SocialNetwork>
                     <div className="copyright-text">
-                        <p>V1.0.0
+                        <p>V1.0.1
                         <br />
                         Código para esta página <a href="https://github.com/SvS30/Blog"><strong>acá.</strong></a>
                         </p>
