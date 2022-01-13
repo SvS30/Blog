@@ -3,14 +3,9 @@
   "name": "My Own Blog",
   "icons": [
     {
-      "src": "avatar.png",
-      "type": "image/png",
-      "sizes": "600x600"
-    },
-    {
-      "src": "profile.png",
-      "type": "image/png",
-      "sizes": "847x1280"
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
