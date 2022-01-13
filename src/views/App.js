@@ -80,7 +80,7 @@ function App() {
             </div>
             <h3 className="title">Acerca de mi</h3>
             <h5 className="description">
-              Desarrollador de software, interesado en crear tecnología de vanguardia que ayude a resolver problemas que se presentan en nuestro diario vivir, estando en total disponibilidad de aprender tecnologías/metodologías novedosas, como también adaptarme a las exigencias que conlleva el trabajar en un equipo de desarrolladores.
+              Desarrollador de software, interesado en crear tecnología de vanguardia que ayude a resolver problemas que se presentan en nuestro día a días, estando en total disponibilidad de aprender tecnologías/metodologías novedosas, como también adaptarme a las exigencias que conlleva el trabajar en un equipo de desarrolladores.
             </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="10">
