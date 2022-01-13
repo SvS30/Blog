@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+// Import styles
+import "./assets/css/bootstrap.min.css";
+import "./assets/scss/now-ui-kit.scss?v=1.5.0";
 
 // Import views
-import App from './views/landing/App';
+import App from './views/App';
 
 ReactDOM.render(
   <React.StrictMode>
