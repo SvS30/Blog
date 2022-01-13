@@ -58,7 +58,7 @@ function App() {
                 id="tooltip340339231"
                 size="lg"
               >
-                <a 
+                <a
                   href="https://www.linkedin.com/in/salim-vazquez-solis-6565b7170/"
                   target="_blank"
                   rel="noreferrer">
@@ -84,37 +84,37 @@ function App() {
                     <NavItem>
                       <NavLink
                         className={pills === "1" ? "active" : ""}
-                        href="#pablo"
+                        href="#aptitudes-y-habilidades"
                         onClick={(e) => {
                           e.preventDefault();
                           setPills("1");
                         }}
                       >
-                        <i className="now-ui-icons design_image"></i>
+                        <i className="now-ui-icons sport_user-run"></i>
                       </NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink
                         className={pills === "2" ? "active" : ""}
-                        href="#pablo"
+                        href="#blog"
                         onClick={(e) => {
                           e.preventDefault();
                           setPills("2");
                         }}
                       >
-                        <i className="now-ui-icons location_world"></i>
+                        <i className="now-ui-icons education_paper"></i>
                       </NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink
                         className={pills === "3" ? "active" : ""}
-                        href="#pablo"
+                        href="#tecnologías"
                         onClick={(e) => {
                           e.preventDefault();
                           setPills("3");
                         }}
                       >
-                        <i className="now-ui-icons sport_user-run"></i>
+                        <i className="now-ui-icons education_atom"></i>
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -122,38 +122,44 @@ function App() {
               </Col>
               <TabContent className="gallery" activeTab={"pills" + pills}>
                 <TabPane tabId="pills1">
-                  <h4 className="title text-center">Aptitudes y Habilidades</h4>
+                  <h4 className="title text-center">Aptitudes</h4>
+                  <br />
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg1.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg3.jpg").default}
-                        ></img>
+                        <Col md="12">
+                          <p className="category">Adaptarse a nuevos entornos de trabajo</p>
+                          <p>Durante el desarrollo de mis estudios supe adaptarme a los cambios y nuevas condiciones que se estan presentaban en mi entorno.</p>
+                        </Col>
                       </Col>
                       <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg8.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg7.jpg").default}
-                        ></img>
+                        <Col md="12">
+                          <p className="category">Organización y planificación</p>
+                          <p>En mi formacion como ingeniero adquiri la capacidad para programar y distribuir las tareas entre el equipo de trabajo, estableciendo objetivos realistas.</p>
+                        </Col>
+                      </Col>
+                    </Row>
+                    <hr />
+                    <h4 className="title text-center">Habilidades</h4>
+                    <br />
+                    <Row className="collections">
+                      <Col md="6">
+                        <Col md="12">
+                          <p className="category">Desarrollo Web y Backend</p>
+                          <p>Diseño, construyo y mantengo páginas web utilizando WordPress hasta desarrollos bajo demanda con Angular y React. También creo backend a medida con Laravel, Django, MySQL, entre otras tecnologías.</p>
+                        </Col>
+                      </Col>
+                      <Col md="6">
+                        <Col md="12">
+                          <p className="category">Desarrollo Móvil</p>
+                          <p>Diseño y creo apps nativas e híbridas para Android (smartphones y tablets), usando Android Studio, Flutter, Ionic.</p>
+                        </Col>
                       </Col>
                     </Row>
                   </Col>
                 </TabPane>
                 <TabPane tabId="pills2">
-                  <h4 className="title text-center">Portafolio</h4>
+                  <h4 className="title text-center">Blog</h4>
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
@@ -184,7 +190,7 @@ function App() {
                   </Col>
                 </TabPane>
                 <TabPane tabId="pills3">
-                  <h4 className="title text-center">Blog</h4>
+                  <h4 className="title text-center">Tecnologías</h4>
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
