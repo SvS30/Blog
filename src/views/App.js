@@ -83,7 +83,7 @@ function App() {
               Desarrollador de software, interesado en crear tecnología de vanguardia que ayude a resolver problemas que se presentan en nuestro diario vivir, estando en total disponibilidad de aprender tecnologías/metodologías novedosas, como también adaptarme a las exigencias que conlleva el trabajar en un equipo de desarrolladores.
             </h5>
             <Row>
-              <Col className="ml-auto mr-auto" md="6">
+              <Col className="ml-auto mr-auto" md="10">
                 <div className="nav-align-center">
                   <Nav
                     className="nav-pills-info nav-pills-just-icons"
@@ -99,7 +99,7 @@ function App() {
                           setPills("1");
                         }}
                       >
-                        <i className="now-ui-icons sport_user-run"></i>
+                        <i className="now-ui-icons education_atom"></i>
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -112,18 +112,6 @@ function App() {
                         }}
                       >
                         <i className="now-ui-icons education_paper"></i>
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={pills === "3" ? "active" : ""}
-                        href="#tecnologías"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("3");
-                        }}
-                      >
-                        <i className="now-ui-icons education_atom"></i>
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -165,6 +153,45 @@ function App() {
                         </Col>
                       </Col>
                     </Row>
+                    <hr />
+                    <h4 className="title text-center">Tecnologías</h4>
+                    <br />
+                    <Row className="collections">
+                      <Col md="12" className="text-center">
+                        <p className="category">Backend</p>
+                        <img
+                          src="https://img.icons8.com/fluency/48/000000/laravel.png"
+                          alt="Laravel icon" />
+                        &nbsp;&nbsp;
+                        <img
+                          src="https://img.icons8.com/color/48/000000/django.png"
+                          alt="Django icon" />
+                        &nbsp;&nbsp;
+                        <img
+                          src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+                          alt="MySQL icon" />
+                        &nbsp;&nbsp;
+                        <img
+                          src="https://img.icons8.com/color/48/000000/postgreesql.png"
+                          alt="PostgreSQL icon" />
+                        &nbsp;&nbsp;
+                        <img
+                          src="https://img.icons8.com/color/48/000000/mongodb.png"
+                          alt="MongoDB icon" />
+                      </Col>
+                    </Row>
+                    <Row className="collections">
+                      <Col md="12" className="text-center">
+                        <p className="category">Frontend</p>
+                        <img
+                          src="https://img.icons8.com/color/48/000000/react-native.png"
+                          alt="React icon" />
+                        &nbsp;&nbsp;
+                        <img
+                          src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo.png"
+                          alt="Angular icon" />
+                      </Col>
+                    </Row>
                   </Col>
                 </TabPane>
                 <TabPane tabId="pills2">
@@ -182,43 +209,14 @@ function App() {
                           <br />
                           {blog.categories.map((tag, index) => {
                             return <React.Fragment>
-                              <i color="dark-gray" className="now-ui-icons shopping_tag-content" key={index}>{tag}</i>
+                              <i color="dark-gray"
+                                className="now-ui-icons shopping_tag-content"
+                                key={index}>{tag}</i>
                             </React.Fragment>
                           })}
                         </Col>
                         </React.Fragment>
                       })}
-                    </Row>
-                  </Col>
-                </TabPane>
-                <TabPane tabId="pills3">
-                  <h4 className="title text-center">Tecnologías</h4>
-                  <Col className="ml-auto mr-auto" md="10">
-                    <Row className="collections">
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg3.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg8.jpg").default}
-                        ></img>
-                      </Col>
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg7.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg6.jpg").default}
-                        ></img>
-                      </Col>
                     </Row>
                   </Col>
                 </TabPane>
