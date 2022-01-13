@@ -20,6 +20,15 @@ a{
         color: $primary-color;
     }
 }
+
+.link-blog {
+  color: $info-color;
+    &:hover,
+    &:focus{
+        color: $success-color-opacity !important;
+    }
+}
+
 h1, .h1 {
     font-size: $font-size-h1;
     line-height: 1.15;

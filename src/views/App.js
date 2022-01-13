@@ -18,7 +18,16 @@ import DefaultFooter from "../components/Footers/DefaultFooter"
 
 function App() {
   const [pills, setPills] = React.useState("2");
+  const [blogs, setBlogs] = React.useState();
+
+  const apiMedium = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@salimvzqz';
+  const fetchApiMedium = async () => {
+    const response = await fetch(apiMedium)
+    const responseJSON = await response.json()
+    setBlogs(responseJSON.items)
+  }
   React.useEffect(() => {
+    fetchApiMedium();
     document.body.classList.add("profile-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
@@ -162,30 +171,23 @@ function App() {
                   <h4 className="title text-center">Blog</h4>
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg6.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg11.jpg").default}
-                        ></img>
-                      </Col>
-                      <Col md="6">
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg7.jpg").default}
-                        ></img>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src={require("../assets/img/bg8.jpg").default}
-                        ></img>
-                      </Col>
+                      {!blogs ? 'Loading...' : blogs.map((blog, index) => {
+                        return <React.Fragment><Col md="12" key={index}>
+                          <img
+                            alt={"Thumb " + blog.title}
+                            className="img-raised"
+                            src={blog.thumbnail}
+                          ></img>
+                          <a className="link-blog" href={blog.link}>{blog.title}</a>
+                          <br />
+                          {blog.categories.map((tag, index) => {
+                            return <React.Fragment>
+                              <i color="dark-gray" className="now-ui-icons shopping_tag-content" key={index}>{tag}</i>
+                            </React.Fragment>
+                          })}
+                        </Col>
+                        </React.Fragment>
+                      })}
                     </Row>
                   </Col>
                 </TabPane>
