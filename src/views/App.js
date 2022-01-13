@@ -45,7 +45,9 @@ function App() {
                 id="tooltip515203352"
                 size="lg"
               >
-                <i className="fa fa-envelope"></i>
+                <a href="mailto:salimvzqz@gmail.com">
+                  <i className="fa fa-envelope"></i>
+                </a>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip515203352">
                 Send Mail
@@ -56,7 +58,12 @@ function App() {
                 id="tooltip340339231"
                 size="lg"
               >
-                <i className="fab fa-linkedin"></i>
+                <a 
+                  href="https://www.linkedin.com/in/salim-vazquez-solis-6565b7170/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <i className="fab fa-linkedin"></i>
+                </a>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip340339231">
                 Linkedin
