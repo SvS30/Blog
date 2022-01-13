@@ -20,6 +20,15 @@ a{
         color: $primary-color;
     }
 }
+
+.link-blog {
+  color: $info-color;
+    &:hover,
+    &:focus{
+        color: $success-color-opacity !important;
+    }
+}
+
 h1, .h1 {
     font-size: $font-size-h1;
     line-height: 1.15;
@@ -55,6 +64,7 @@ h5, .h5 {
     font-size: $font-size-h5;
     line-height: 1.4em;
     margin-bottom: 15px;
+    text-align: justify !important;
 
     &.category{
         font-weight: 400;
@@ -69,6 +79,7 @@ p{
     line-height: 1.61em;
     font-weight: 300;
     font-size: 1.2em;
+    text-align: justify;
 }
 
 .title{
