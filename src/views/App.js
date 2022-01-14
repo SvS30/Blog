@@ -15,9 +15,10 @@ import {
 
 import DefaultHeader from "../components/Headers/DefaultHeader"
 import DefaultFooter from "../components/Footers/DefaultFooter"
+import CV from "../assets/CV.pdf"
 
 function App() {
-  const [pills, setPills] = React.useState("2");
+  const [pills, setPills] = React.useState("1");
   const [blogs, setBlogs] = React.useState();
 
   const apiMedium = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@salimvzqz';
@@ -46,7 +47,9 @@ function App() {
           <Container>
             <div className="button-container">
               <Button className="btn-round" color="info" size="lg">
-                CV
+                <a href={CV}
+                  target="_blank"
+                  rel="noreferrer">CV</a>
               </Button>
               <Button
                 className="btn-round btn-icon"
