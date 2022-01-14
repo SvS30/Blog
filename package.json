@@ -2,6 +2,7 @@
   "name": "own-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://own-blog-react.herokuapp.com",
   "engines": {
     "node": "14.18.2",
     "npm": "8.3.0"

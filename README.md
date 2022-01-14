@@ -1,5 +1,9 @@
 # My Own Blog
 
+![CI/CD](https://github.com/SvS30/Own-Blog/workflows/CI/CD/badge.svg)
+
+![License](https://img.shields.io/github/license/SvS30/Own-Blog)
+
 This blog is built using [Create React App](https://github.com/facebook/create-react-app), and contains only styles and information of its own.
 
 ## Steps to get it running:
