@@ -181,6 +181,9 @@ function App() {
                         <img
                           src="https://img.icons8.com/color/48/000000/mongodb.png"
                           alt="MongoDB icon" />
+                        <img
+                          src="https://img.icons8.com/fluency/48/000000/docker.png"
+                          alt="Docker icon" />
                       </Col>
                     </Row>
                     <Row className="collections">
