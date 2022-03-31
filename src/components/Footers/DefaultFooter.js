@@ -43,7 +43,7 @@ function DefaultFooter() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/salim.vazquez"
+                  href="https://www.instagram.com/salimvzqz/"
                   target="_blank"
                   rel="noreferrer">
                   <i className="fab fa-instagram"></i>

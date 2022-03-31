@@ -2,7 +2,7 @@
 
 ![CI/CD](https://github.com/SvS30/Own-Blog/workflows/CI/CD/badge.svg)
 
-This blog is built using [Create React App](https://github.com/facebook/create-react-app), and contains only styles and information of its own.
+This blog is built using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Steps to get it running:
 1. Fork or clone this repo
